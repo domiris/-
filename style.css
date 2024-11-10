@@ -1,91 +1,105 @@
-body{
-    margin: 0;
-    background-color: blanchedalmond;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+body {
+  margin: 0;
+  background-color: blanchedalmond;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
-i{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
-a{
-    text-decoration: none;
+i {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
-
-
-header{
-   background-color: burlywood;
-    display: flex;
-    padding: 20px;
-    align-items: center;
+a {
+  text-decoration: none;
 }
 
-nav{
-    display: flex;
-    width: 800px;
+header {
+  background-color: burlywood;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  width: 800px;
   justify-content: space-around;
 }
 
-.logo{
-width: 100px;
-height: 100px;
+.logo {
+  width: 100px;
+  height: 100px;
 }
 
-nav a{
-    font-size: 22px;
-    color: black;
-    transition: 0.3s;
+nav a {
+  font-size: 22px;
+  color: black;
+  transition: 0.3s;
 }
 
-nav a:hover{
-    text-shadow: 0px 0px 15px white, 0px 0px 5px white;
-    transform: scale(1.1) translateY(-4px);
+nav a:hover {
+  text-shadow: 0px 0px 15px white, 0px 0px 5px white;
+  transform: scale(1.1) translateY(-4px);
 }
 
 main h1 {
-    color: rgb(17, 122, 9);
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+  color: rgb(17, 122, 9);
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .catalog {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
-  
-  .card {
-    height: 520px;
-    width: 350px;
-    text-align: center;
-    padding: 20px;
-    background-color: #f6f6f6;
-    border-radius: 15px;
-    font-size: 20px;
-    margin: 20px;
-    box-shadow: inset 0px 0px 5px 0px lightgray;
-    cursor: pointer;
-  }
-  
-  .card img {
-    height: 400px;
-    width: 300px;
-  }
-  
-  .price{
-    color: red;
-    text-shadow: 0px 0px 20px orange;
-  }
-  .fa-basket-shopping{
-    color: blue;
-    font-size: 25px;
-  }
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
 
-  footer{
-    background-color:burlywood;
-    padding: 15px;
-    font-size: 20px;
-    display: flex;
-  }
-  
-  .links{
-    margin-left: 300px;
-  }
+.card {
+  height: 520px;
+  width: 350px;
+  text-align: center;
+  padding: 20px;
+  background-color: #f6f6f6;
+  border-radius: 15px;
+  font-size: 20px;
+  margin: 20px;
+  box-shadow: inset 0px 0px 5px 0px lightgray;
+  cursor: pointer;
+}
+
+.card img {
+  height: 400px;
+  width: 300px;
+}
+
+.price {
+  color: red;
+  text-shadow: 0px 0px 20px orange;
+}
+.fa-basket-shopping {
+  color: blue;
+  font-size: 25px;
+}
+
+footer {
+  background-color: burlywood;
+  padding: 15px;
+  font-size: 20px;
+  display: flex;
+}
+
+.links {
+  margin-left: 300px;
+}
+
+.links a {
+  display: block;
+  font-size: 22px;
+  color: black;
+  transition: 0.3s;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+.links a:hover {
+  color: grey;
+}
